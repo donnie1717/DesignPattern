@@ -7,7 +7,7 @@ public class TestDecorator {
 		Person person = new Person("jack");
 		
 		Tshirt t = new Tshirt();
-		t.show();
+		//t.show();
 		Jeans j = new Jeans();
 		t.Decorator(person);
 		//t.show();
